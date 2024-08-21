@@ -1,1 +1,3 @@
-dont add any files here, the program will add the images on its own
+dont add any files here, the program will add the images on its own. 
+
+**Remove this file to make the program function**
