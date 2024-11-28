@@ -220,8 +220,10 @@ while True:
             mark_attendance(date_to_update, table_name)
 
     elif operation == 6:
+        month = input("Enter the month (e.g., Aug): ")
+        year = input("Enter the year (e.g., 2024): ")
         date_to_display = input("Enter the date to display attendance (YYYY-MM-DD): ")
-        display_attendance(date_to_display)
+        display_attendance(date_to_display, month, year)
 
     elif operation == 7:
         list_students()
